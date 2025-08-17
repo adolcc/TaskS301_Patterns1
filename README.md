@@ -1,24 +1,27 @@
-**Introduction to Spring Boot**
+**Design Patterns**
 
-Through this series of exercises, a practical understanding of creating microservices with Spring Boot has been achieved.
+This series of exercises focuses on identifying and applying three fundamental software design patterns, essential for creating robust, scalable, and reusable code.
 
-REST API Fundamentals: Two basic APIs were built to understand how endpoints work, handling HTTP GET requests and processing data through both query parameters (@RequestParam) and path variables (@PathVariable).
+Singleton Pattern
+The first level solidifies the understanding of the Singleton pattern. A class is developed to emulate a command history, ensuring that only one instance exists throughout the application. This implementation is ideal for managing a unique global state, allowing commands to be added, removed, and listed from a centralized point. .
 
-Dependency Management: Two of the most widely used dependency managers in the Java ecosystem, Maven and Gradle, were explored and compared. This allowed for familiarization with their project structures and command-line tools for compiling, packaging, and running applications.
+Abstract Factory Pattern
+The second exercise centers on the Abstract Factory pattern, which facilitates the creation of related object families without coupling the code to concrete classes. To demonstrate this, an international information manager is built, capable of generating addresses and phone numbers that adhere to the specific formats of different countries, thus keeping the system flexible and extensible.
 
-Development Tools: Essential tools for the modern workflow were utilized. Development environments were set up in Eclipse, and Postman was used to professionally test the APIs by creating environments and variables to efficiently manage test configurations.
+Command Pattern
+Finally, the Command pattern is explored. A system is designed to control different types of vehicles (car, bicycle, airplane, boat), encapsulating actions like starting, accelerating, and braking into command objects. This decouples the invoker of the request from the receiver that executes it, making the system modular, easy to extend, and capable of supporting new operations or vehicles seamlessly. .
 
 ---
 
 **I completed this exercise with the help of:**
 
-Resources were provided by my campus, Google searches, dedicated coding websites, and the Gemini (AI assistant).
+Resources were provided by my campus, Google searches, dedicated coding websites as mitocode, and the Gemini (AI assistant).
 
 ---
 
 **Technologies Used**
 
-GitHub Desktop, Postman, Intellij IDEA. 
+GitHub Desktop, Intellij IDEA. 
 
 ---
 
